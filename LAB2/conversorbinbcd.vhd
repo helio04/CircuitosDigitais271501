@@ -21,9 +21,9 @@ architecture Rtl of conversorbinbcd is
 begin
     
     cvbcd : binbcd port map (swent(7 downto 0),sinalinterno);
-    displayu : segm port map(bcd(3 downto 0), hex0);
-    displayd : segm port map(bcd(7 downto 4), hex1);
-    displayc : segm port map(bcd(11 downto 8), hex2);
+    displayu : segm port map(sinalinterno(3 downto 0), hex0);
+    displayd : segm port map(sinalinterno(7 downto 4), hex1);
+    displayc : segm port map(sinalinterno(11 downto 8), hex2);
     
     
 end architecture;
