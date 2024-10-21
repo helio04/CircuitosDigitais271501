@@ -6,9 +6,7 @@ entity lab4 is
     sw : in std_logic_vector(3 downto 0);    
     key : in std_logic_vector(2 downto 0);
     ledg : out std_logic_vector(7 downto 0);
-    ledr : out std_logic_vector(7 downto 0);
-
-    );
+    ledr : out std_logic_vector(7 downto 0));
 end entity lab4;
 architecture Rtl of lab4 is
     component decoderkey is
@@ -17,9 +15,8 @@ architecture Rtl of lab4 is
     end component;
     component decoderlinha is
         port (valor : in std_logic_vector(3 downto 0);
-        keydl : in std_logic_vector(2 downto 0);
-        saidadecoderlinha : out std_logic_vector(7 downto 0);
-    );
+        keyd1 : in std_logic_vector(2 downto 0);
+        saidadecoderlinha : out std_logic_vector(7 downto 0));
     end component;
 begin
     decoderkeyledg : decoderkey port map (key, ledg);

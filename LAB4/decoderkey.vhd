@@ -7,7 +7,7 @@ entity decoderkey is
 end entity;
 
 architecture Rtl of decoderkey is
-    signal a,b,c,d : in std_logic;
+    signal a,b,c,d : std_logic;
 begin
     a <= keydd(2);
     b <= keydd(1);
