@@ -1,0 +1,41 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity lab6 is
+	port(sw : in std_logic_vector(3 downto 0);
+			clear,clock : in std_logic;
+			ledr : out std_logic(7 downto 0);
+			ledg : out std_logic(7 downto 0));
+end entity;
+
+architecture satanismo of lab6 is
+component mux is
+	port (entrada1, entrada2 : in std_logic_vector(7 downto 0);
+			seletor : in std_logic;
+			saidamux : out std_logic_vector(7 downto 0));
+end component;
+component deslocador is
+	port(a : in std_logic_vector(7 downto 0);
+			k : in std_logic;
+			s : out std_logic_vector(7 downto0 ));
+end component;
+component registrador8bits is
+	port(cin: in std_logic_vector(7 downto 0);
+		  clk: in std_logic;
+	     clear: in std_logic;
+		  cout: out std_logic_vector(7 downto 0));
+end component;
+signal deslocarlateral, deslocarvertical : std_logic;
+signal pulsolateral, pulsovertical : std_logic;
+signal entradaregistradorred, saidaregistradorred, saidamuxclearred, saidadeslocadorred, saidadeslocadorgreen : std_logic_vector(7 downto 0);
+
+begin
+deslocarlateral <= (not sw(3)) and sw(0); --esquerda quando 0, direita quando 1;
+deslocarvertical <= (not sw(1)) and sw(2); --cima quando 1, baixo quando 0;
+pulsolateral <= sw(3) or sw(0); --mover lateralmente
+pulsovertical <= sw(2) or sw(1); --mover vertical
+muxclearred : mux port map("10000000", saidaregistradorred, clear, saidamuxclearred);
+deslocadorred : deslocador port map(saidamuxclearred, deslocarlateral, saidadeslocadorred);
+muxdred : mux port map(saidamuxclearred, saidadeslocadorred, pulsolateral, entradaregistradorred);
+registradorred : registrador8bits port map(entradaregistradorred, clock1seg, '1', saidaregistradorred);
+end architecture

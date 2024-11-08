@@ -1,0 +1,523 @@
+|LAB6
+sw[0] => deslocarlateral.IN0
+sw[0] => pulsolateral.IN0
+sw[1] => pulsovertical.IN0
+sw[1] => deslocarvertical.IN0
+sw[2] => deslocarvertical.IN1
+sw[2] => pulsovertical.IN1
+sw[3] => pulsolateral.IN1
+sw[3] => deslocarlateral.IN1
+clear => mux:muxclearred.seletor
+clear => mux:muxcleargreen.seletor
+clockfpga => divisorclock:dvc.ck_in
+ledr[0] <= registrador8bits:registradorred.cout[0]
+ledr[1] <= registrador8bits:registradorred.cout[1]
+ledr[2] <= registrador8bits:registradorred.cout[2]
+ledr[3] <= registrador8bits:registradorred.cout[3]
+ledr[4] <= registrador8bits:registradorred.cout[4]
+ledr[5] <= registrador8bits:registradorred.cout[5]
+ledr[6] <= registrador8bits:registradorred.cout[6]
+ledr[7] <= registrador8bits:registradorred.cout[7]
+ledg[0] <= registrador8bits:registradorgreen.cout[0]
+ledg[1] <= registrador8bits:registradorgreen.cout[1]
+ledg[2] <= registrador8bits:registradorgreen.cout[2]
+ledg[3] <= registrador8bits:registradorgreen.cout[3]
+ledg[4] <= registrador8bits:registradorgreen.cout[4]
+ledg[5] <= registrador8bits:registradorgreen.cout[5]
+ledg[6] <= registrador8bits:registradorgreen.cout[6]
+ledg[7] <= registrador8bits:registradorgreen.cout[7]
+
+
+|LAB6|divisorclock:dvc
+ck_in => ax.CLK
+ck_in => cnt[0].CLK
+ck_in => cnt[1].CLK
+ck_in => cnt[2].CLK
+ck_in => cnt[3].CLK
+ck_in => cnt[4].CLK
+ck_in => cnt[5].CLK
+ck_in => cnt[6].CLK
+ck_in => cnt[7].CLK
+ck_in => cnt[8].CLK
+ck_in => cnt[9].CLK
+ck_in => cnt[10].CLK
+ck_in => cnt[11].CLK
+ck_in => cnt[12].CLK
+ck_in => cnt[13].CLK
+ck_in => cnt[14].CLK
+ck_in => cnt[15].CLK
+ck_in => cnt[16].CLK
+ck_in => cnt[17].CLK
+ck_in => cnt[18].CLK
+ck_in => cnt[19].CLK
+ck_in => cnt[20].CLK
+ck_in => cnt[21].CLK
+ck_in => cnt[22].CLK
+ck_in => cnt[23].CLK
+ck_out <= ax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|mux:muxclearred
+entrada1[0] => saidamux.IN0
+entrada1[1] => saidamux.IN0
+entrada1[2] => saidamux.IN0
+entrada1[3] => saidamux.IN0
+entrada1[4] => saidamux.IN0
+entrada1[5] => saidamux.IN0
+entrada1[6] => saidamux.IN0
+entrada1[7] => saidamux.IN0
+entrada2[0] => saidamux.IN0
+entrada2[1] => saidamux.IN0
+entrada2[2] => saidamux.IN0
+entrada2[3] => saidamux.IN0
+entrada2[4] => saidamux.IN0
+entrada2[5] => saidamux.IN0
+entrada2[6] => saidamux.IN0
+entrada2[7] => saidamux.IN0
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+saidamux[0] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[1] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[2] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[3] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[4] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[5] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[6] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[7] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|deslocador:deslocadorred
+a[0] => s.IN0
+a[1] => s.IN0
+a[1] => s.IN0
+a[2] => s.IN0
+a[2] => s.IN0
+a[3] => s.IN0
+a[3] => s.IN0
+a[4] => s.IN0
+a[4] => s.IN0
+a[5] => s.IN0
+a[5] => s.IN0
+a[6] => s.IN0
+a[6] => s.IN0
+a[7] => s.IN0
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|mux:muxdred
+entrada1[0] => saidamux.IN0
+entrada1[1] => saidamux.IN0
+entrada1[2] => saidamux.IN0
+entrada1[3] => saidamux.IN0
+entrada1[4] => saidamux.IN0
+entrada1[5] => saidamux.IN0
+entrada1[6] => saidamux.IN0
+entrada1[7] => saidamux.IN0
+entrada2[0] => saidamux.IN0
+entrada2[1] => saidamux.IN0
+entrada2[2] => saidamux.IN0
+entrada2[3] => saidamux.IN0
+entrada2[4] => saidamux.IN0
+entrada2[5] => saidamux.IN0
+entrada2[6] => saidamux.IN0
+entrada2[7] => saidamux.IN0
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+saidamux[0] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[1] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[2] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[3] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[4] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[5] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[6] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[7] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred
+cin[0] => ffd:clk1.d
+cin[1] => ffd:clk2.d
+cin[2] => ffd:clk3.d
+cin[3] => ffd:clk4.d
+cin[4] => ffd:clk5.d
+cin[5] => ffd:clk6.d
+cin[6] => ffd:clk7.d
+cin[7] => ffd:clk8.d
+clk => ffd:clk1.ck
+clk => ffd:clk2.ck
+clk => ffd:clk3.ck
+clk => ffd:clk4.ck
+clk => ffd:clk5.ck
+clk => ffd:clk6.ck
+clk => ffd:clk7.ck
+clk => ffd:clk8.ck
+clear => ffd:clk1.clr
+clear => ffd:clk2.clr
+clear => ffd:clk3.clr
+clear => ffd:clk4.clr
+clear => ffd:clk5.clr
+clear => ffd:clk6.clr
+clear => ffd:clk7.clr
+clear => ffd:clk8.clr
+cout[0] <= ffd:clk1.q
+cout[1] <= ffd:clk2.q
+cout[2] <= ffd:clk3.q
+cout[3] <= ffd:clk4.q
+cout[4] <= ffd:clk5.q
+cout[5] <= ffd:clk6.q
+cout[6] <= ffd:clk7.q
+cout[7] <= ffd:clk8.q
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk1
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk2
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk3
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk4
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk5
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk6
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk7
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorred|ffd:clk8
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|mux:muxcleargreen
+entrada1[0] => saidamux.IN0
+entrada1[1] => saidamux.IN0
+entrada1[2] => saidamux.IN0
+entrada1[3] => saidamux.IN0
+entrada1[4] => saidamux.IN0
+entrada1[5] => saidamux.IN0
+entrada1[6] => saidamux.IN0
+entrada1[7] => saidamux.IN0
+entrada2[0] => saidamux.IN0
+entrada2[1] => saidamux.IN0
+entrada2[2] => saidamux.IN0
+entrada2[3] => saidamux.IN0
+entrada2[4] => saidamux.IN0
+entrada2[5] => saidamux.IN0
+entrada2[6] => saidamux.IN0
+entrada2[7] => saidamux.IN0
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+saidamux[0] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[1] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[2] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[3] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[4] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[5] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[6] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[7] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|deslocador:deslocadorgreen
+a[0] => s.IN0
+a[1] => s.IN0
+a[1] => s.IN0
+a[2] => s.IN0
+a[2] => s.IN0
+a[3] => s.IN0
+a[3] => s.IN0
+a[4] => s.IN0
+a[4] => s.IN0
+a[5] => s.IN0
+a[5] => s.IN0
+a[6] => s.IN0
+a[6] => s.IN0
+a[7] => s.IN0
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+k => s.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|mux:muxdgreen
+entrada1[0] => saidamux.IN0
+entrada1[1] => saidamux.IN0
+entrada1[2] => saidamux.IN0
+entrada1[3] => saidamux.IN0
+entrada1[4] => saidamux.IN0
+entrada1[5] => saidamux.IN0
+entrada1[6] => saidamux.IN0
+entrada1[7] => saidamux.IN0
+entrada2[0] => saidamux.IN0
+entrada2[1] => saidamux.IN0
+entrada2[2] => saidamux.IN0
+entrada2[3] => saidamux.IN0
+entrada2[4] => saidamux.IN0
+entrada2[5] => saidamux.IN0
+entrada2[6] => saidamux.IN0
+entrada2[7] => saidamux.IN0
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+seletor => saidamux.IN1
+saidamux[0] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[1] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[2] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[3] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[4] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[5] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[6] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+saidamux[7] <= saidamux.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen
+cin[0] => ffd:clk1.d
+cin[1] => ffd:clk2.d
+cin[2] => ffd:clk3.d
+cin[3] => ffd:clk4.d
+cin[4] => ffd:clk5.d
+cin[5] => ffd:clk6.d
+cin[6] => ffd:clk7.d
+cin[7] => ffd:clk8.d
+clk => ffd:clk1.ck
+clk => ffd:clk2.ck
+clk => ffd:clk3.ck
+clk => ffd:clk4.ck
+clk => ffd:clk5.ck
+clk => ffd:clk6.ck
+clk => ffd:clk7.ck
+clk => ffd:clk8.ck
+clear => ffd:clk1.clr
+clear => ffd:clk2.clr
+clear => ffd:clk3.clr
+clear => ffd:clk4.clr
+clear => ffd:clk5.clr
+clear => ffd:clk6.clr
+clear => ffd:clk7.clr
+clear => ffd:clk8.clr
+cout[0] <= ffd:clk1.q
+cout[1] <= ffd:clk2.q
+cout[2] <= ffd:clk3.q
+cout[3] <= ffd:clk4.q
+cout[4] <= ffd:clk5.q
+cout[5] <= ffd:clk6.q
+cout[6] <= ffd:clk7.q
+cout[7] <= ffd:clk8.q
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk1
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk2
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk3
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk4
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk5
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk6
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk7
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LAB6|registrador8bits:registradorgreen|ffd:clk8
+ck => q~reg0.CLK
+clr => q.IN0
+set => q.IN1
+set => q~reg0.PRESET
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,131 @@
+# Reading D:/Engenharia/alteraquartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do LAB6_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\Engenharia\alteraquartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Engenharia\alteraquartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB6/ff_d.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ffd
+# -- Compiling architecture logica of ffd
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB6/mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux
+# -- Compiling architecture josias of mux
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB6/deslocador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity deslocador
+# -- Compiling architecture manicomio of deslocador
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB6/registrador8bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador8bits
+# -- Compiling architecture logica of registrador8bits
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB6/lab6.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lab6
+# -- Compiling architecture satanismo of lab6
+# 
+vsim work.lab6
+# vsim work.lab6 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab6(satanismo)
+# Loading work.mux(josias)
+# Loading work.deslocador(manicomio)
+# Loading work.registrador8bits(logica)
+# Loading work.ffd(logica)
+vsim work.lab6
+# vsim work.lab6 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab6(satanismo)
+# Loading work.mux(josias)
+# Loading work.deslocador(manicomio)
+# Loading work.registrador8bits(logica)
+# Loading work.ffd(logica)
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/lab6/clear
+# lab6
+wave create -driver freeze -pattern constant -value U -starttime 0ps -endtime 1000ps sim:/lab6/clock
+# lab6
+wave create -driver freeze -pattern constant -value UUUU -range 3 0 -starttime 0ps -endtime 1000ps sim:/lab6/sw
+# lab6
+add wave -position insertpoint  \
+sim:/lab6/ledg
+add wave -position insertpoint  \
+sim:/lab6/ledr
+wave modify -driver freeze -pattern constant -value 1 -starttime 150ps -endtime 350ps Edit:/lab6/clear
+# lab6
+wave modify -driver freeze -pattern constant -value 1 -starttime 150ps -endtime 1500ps Edit:/lab6/clear
+# lab6
+wave modify -driver freeze -pattern clock -initialvalue (no value) -period 101ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/lab6/clock
+# ** Error: (vish-4026) Value "(no" does not represent a literal of the enumeration type.
+#Invalid value to -initialvalue switch: (no
+# 
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 101ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/lab6/clock
+# lab6
+wave modify -driver freeze -pattern constant -value 1100 -range 3 0 -starttime 0ps -endtime 100ps Edit:/lab6/sw
+# lab6
+wave modify -driver freeze -pattern constant -value 1100 -range 3 0 -starttime 0ps -endtime 500ps Edit:/lab6/sw
+# lab6
+run
+run
+run
+run
+wave modify -driver freeze -pattern constant -value 1010 -range 3 0 -starttime 0ps -endtime 500ps Edit:/lab6/sw
+# lab6
+restart
+run
+run
+run
+run
+run
+run
+wave modify -driver freeze -pattern constant -value 0101 -range 3 0 -starttime 500ps -endtime 1000ps Edit:/lab6/sw
+# lab6
+run
+run
+run
+run
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab6/clock "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /lab6/sw ""
+restart
+wave modify -driver freeze -pattern constant -value 1100 -range 3 0 -starttime 500ps -endtime 1000ps Edit:/lab6/sw
+# lab6
+run
+run
+run
+run
+run
+run
+run -continue
+run
+run
+run
