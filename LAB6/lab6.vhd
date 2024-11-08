@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity lab6 is
 	port(sw : in std_logic_vector(3 downto 0);
-			clear,clockfpga : in std_logic;
+			cleark,clockfpga : in std_logic;
 			ledr : out std_logic_vector(7 downto 0);
 			ledg : out std_logic_vector(7 downto 0));
 end entity;
@@ -30,11 +30,12 @@ component divisorclock is
          ck_out: out std_logic);
 end component;
 
-signal deslocarlateral, deslocarvertical, clock : std_logic;
+signal deslocarlateral, deslocarvertical, clock,clear : std_logic;
 signal pulsolateral, pulsovertical : std_logic;
 signal entradaregistradorred, saidaregistradorred, saidamuxclearred, saidadeslocadorred : std_logic_vector(7 downto 0);
 signal entradaregistradorgreen, saidaregistradorgreen, saidamuxcleargreen, saidadeslocadorgreen : std_logic_vector(7 downto 0);
 begin
+clear <= not cleark;
 dvc : divisorclock port map(clockfpga,clock);
 deslocarlateral <= (not sw(3)) and sw(0); --esquerda quando 0, direita quando 1;
 deslocarvertical <= (not sw(1)) and sw(2); --cima quando 1, baixo quando 0;
