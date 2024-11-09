@@ -8,8 +8,8 @@ entity deslocador is
 end entity;
 architecture manicomio of deslocador is
 begin
-s(7) <= a(6) and k;
-s(0) <= a(1) and (not k);
+s(7) <= (a(6) and k) or (a(0) and (not k));
+s(0) <= (a(7) and k) or a(1) and (not k);
 s(1) <= (a(0) and k) or (a(2) and not k);
 s(2) <= (a(1) and k) or (a(3) and not k);
 s(3) <= (a(2) and k) or (a(4) and not k);
