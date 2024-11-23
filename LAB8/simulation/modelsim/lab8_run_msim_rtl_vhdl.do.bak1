@@ -1,0 +1,19 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd}
+

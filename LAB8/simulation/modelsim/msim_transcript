@@ -1,0 +1,123 @@
+# Reading D:/Engenharia/alteraquartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab8_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\Engenharia\alteraquartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Engenharia\alteraquartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity multiplicador
+# -- Compiling architecture melindre of multiplicador
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity somador
+# -- Compiling architecture rapunzel of somador
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ffd
+# -- Compiling architecture logica of ffd
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lab8
+# -- Compiling architecture milagre of lab8
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regbasico
+# -- Compiling architecture logica of regbasico
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regRC
+# -- Compiling architecture lacraia of regRC
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4
+# -- Compiling architecture polonia of mux4
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity segm
+# -- Compiling architecture conversor of segm
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador10bits
+# -- Compiling architecture pamonha of registrador10bits
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg10bom
+# -- Compiling architecture solenidade of reg10bom
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity divisorclock
+# -- Compiling architecture logica of divisorclock
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/binbcd10bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BINBCD_10bits
+# -- Compiling architecture Hardware of BINBCD_10bits
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/conversormodulo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity conversorModulo
+# -- Compiling architecture Hardware of conversorModulo
+# 
+vsim work.binbcd_10bits
+# vsim work.binbcd_10bits 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.binbcd_10bits(hardware)
+# Loading work.conversormodulo(hardware)
+wave create -driver freeze -pattern constant -value 1111111111 -range 9 0 -starttime 0ps -endtime 1000ps sim:/binbcd_10bits/SW
+add wave -position insertpoint  \
+sim:/binbcd_10bits/BCD
+run
+# Can't move the Now cursor.
+wave modify -driver freeze -pattern constant -value 10001011010 -range 9 0 -starttime 0ps -endtime 1000ps Edit:/binbcd_10bits/SW
+# Value length (11) does not equal array index length (10).
+# 
+#Invalid value to -value switch: 10001011010
+# Usage: wave modify -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+restart
+run

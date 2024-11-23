@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity regRC is
+
+end entity;
+
+architecture lacraia of regRC is
+
+begin
+end architecture;
