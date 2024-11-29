@@ -80,13 +80,6 @@
 # -- Loading package std_logic_1164
 # -- Compiling entity reg10bom
 # -- Compiling architecture solenidade of reg10bom
-# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity divisorclock
-# -- Compiling architecture logica of divisorclock
 # vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/binbcd10bits.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
@@ -102,22 +95,119 @@
 # -- Compiling entity conversorModulo
 # -- Compiling architecture Hardware of conversorModulo
 # 
-vsim work.binbcd_10bits
-# vsim work.binbcd_10bits 
+vsim work.lab8
+# vsim work.lab8 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
+# Loading work.lab8(milagre)
+# Loading work.regrc(lacraia)
+# Loading work.mux4(polonia)
+# Loading work.regbasico(logica)
+# Loading work.ffd(logica)
+# Loading work.multiplicador(melindre)
+# Loading work.somador(rapunzel)
+# Loading work.reg10bom(solenidade)
+# Loading work.registrador10bits(pamonha)
 # Loading work.binbcd_10bits(hardware)
 # Loading work.conversormodulo(hardware)
-wave create -driver freeze -pattern constant -value 1111111111 -range 9 0 -starttime 0ps -endtime 1000ps sim:/binbcd_10bits/SW
+# Loading work.segm(conversor)
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab8/actC
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab8/actOut
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab8/actY
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab8/clockfpga
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab8/clr_r
+wave create -driver freeze -pattern constant -value UUUU -range 3 0 -starttime 0ps -endtime 1000ps sim:/lab8/entradamc
+wave create -driver freeze -pattern constant -value UUUU -range 3 0 -starttime 0ps -endtime 1000ps sim:/lab8/entradamy
+wave create -driver freeze -pattern constant -value UU -range 1 0 -starttime 0ps -endtime 1000ps sim:/lab8/selC
 add wave -position insertpoint  \
-sim:/binbcd_10bits/BCD
+sim:/lab8/hex0
+add wave -position insertpoint  \
+sim:/lab8/hex1
+add wave -position insertpoint  \
+sim:/lab8/hex2
+add wave -position insertpoint  \
+sim:/lab8/saidaRSs
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps Edit:/lab8/actC
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps Edit:/lab8/actOut
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps Edit:/lab8/actY
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps Edit:/lab8/clr_r
+wave modify -driver freeze -pattern constant -value 0010 -range 3 0 -starttime 0ps -endtime 1000ps Edit:/lab8/entradamc
+wave modify -driver freeze -pattern constant -value 0001 -range 3 0 -starttime 0ps -endtime 1000ps Edit:/lab8/entradamy
+wave modify -driver freeze -pattern constant -value 01 -range 1 0 -starttime 0ps -endtime 150ps Edit:/lab8/selC
+wave modify -driver freeze -pattern constant -value 10 -range 1 0 -starttime 150ps -endtime 300ps Edit:/lab8/selC
+wave modify -driver freeze -pattern constant -value 11 -range 1 0 -starttime 300ps -endtime 550ps Edit:/lab8/selC
+wave modify -driver freeze -pattern constant -value 01 -range 1 0 -starttime 550ps -endtime 1000ps Edit:/lab8/selC
 run
-# Can't move the Now cursor.
-wave modify -driver freeze -pattern constant -value 10001011010 -range 9 0 -starttime 0ps -endtime 1000ps Edit:/binbcd_10bits/SW
-# Value length (11) does not equal array index length (10).
-# 
-#Invalid value to -value switch: 10001011010
-# Usage: wave modify -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/lab8/saidabcdaux
 restart
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 2000ps Edit:/lab8/actC
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 2000ps Edit:/lab8/actOut
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 2000ps Edit:/lab8/actY
+wave modify -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps Edit:/lab8/clockfpga
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 2000ps Edit:/lab8/clr_r
+wave modify -driver freeze -pattern constant -value 0010 -range 3 0 -starttime 0ps -endtime 2000ps Edit:/lab8/entradamc
+wave modify -driver freeze -pattern constant -value 0001 -range 3 0 -starttime 0ps -endtime 2000ps Edit:/lab8/entradamy
+wave modify -driver freeze -pattern constant -value 01 -range 1 0 -starttime 550ps -endtime 2000ps Edit:/lab8/selC
 run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/testefinal.do
+wave editwrite -file D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/testefinal.do -append
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab8/clockfpga "Time value must be greater than "now": 2000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /lab8/clr_r ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/entradamc ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/entradamy ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/selC ""
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab8/clockfpga "Time value must be greater than "now": 2000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /lab8/clr_r ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/entradamc ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/entradamy ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/selC ""
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab8/clockfpga "Time value must be greater than "now": 2000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /lab8/clr_r ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/entradamc ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/entradamy ""
+# Internal Error: In tclprim_ApplyStimulus for /lab8/selC ""

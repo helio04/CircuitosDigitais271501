@@ -1,5 +1,5 @@
 Analysis & Elaboration report for lab8
-Sat Nov 23 03:29:57 2024
+Fri Nov 29 00:16:34 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                  ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Sat Nov 23 03:29:57 2024      ;
+; Analysis & Elaboration Status      ; Successful - Fri Nov 29 00:16:34 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; lab8                                       ;
 ; Top-level Entity Name              ; lab8                                       ;
@@ -447,7 +447,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Elaboration
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Sat Nov 23 03:29:49 2024
+    Info: Processing started: Fri Nov 29 00:16:32 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab8 -c lab8 --analysis_and_elaboration
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file multiplicador.vhd
@@ -490,7 +490,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file convers
     Info (12022): Found design unit 1: conversorModulo-Hardware
     Info (12023): Found entity 1: conversorModulo
 Info (12127): Elaborating entity "lab8" for the top level hierarchy
-Info (12128): Elaborating entity "divisorclock" for hierarchy "divisorclock:clockdivi"
+Warning (10541): VHDL Signal Declaration warning at lab8.vhd(50): used implicit default value for signal "saidarsaux" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Info (12128): Elaborating entity "regRC" for hierarchy "regRC:registrador1"
 Info (12128): Elaborating entity "mux4" for hierarchy "regRC:registrador1|mux4:mux4y"
 Info (12128): Elaborating entity "regbasico" for hierarchy "regRC:registrador1|regbasico:regY"
@@ -504,10 +504,10 @@ Info (12128): Elaborating entity "BINBCD_10bits" for hierarchy "BINBCD_10bits:bi
 Warning (10036): Verilog HDL or VHDL warning at binbcd10bits.vhd(21): object "nada" assigned a value but never read
 Info (12128): Elaborating entity "conversorModulo" for hierarchy "BINBCD_10bits:binbcdc|conversorModulo:conversor1"
 Info (12128): Elaborating entity "segm" for hierarchy "segm:hc0"
-Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 2 warnings
+Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 4703 megabytes
-    Info: Processing ended: Sat Nov 23 03:29:57 2024
-    Info: Elapsed time: 00:00:08
+    Info: Processing ended: Fri Nov 29 00:16:34 2024
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

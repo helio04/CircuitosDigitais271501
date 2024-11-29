@@ -15,6 +15,7 @@ vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.v
 vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd}
 vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd}
 vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd}
+vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd}
 vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/binbcd10bits.vhd}
 vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/conversormodulo.vhd}
 

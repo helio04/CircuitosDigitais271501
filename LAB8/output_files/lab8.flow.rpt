@@ -1,5 +1,5 @@
 Flow report for lab8
-Sat Nov 23 03:29:57 2024
+Fri Nov 29 00:16:34 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Sat Nov 23 03:29:57 2024      ;
+; Flow Status                        ; Successful - Fri Nov 29 00:16:34 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; lab8                                       ;
 ; Top-level Entity Name              ; lab8                                       ;
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/23/2024 03:29:51 ;
+; Start date & time ; 11/29/2024 00:16:33 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab8                ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 110073164282944.173234339117452 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 110073164282944.173285019311116 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
@@ -92,8 +92,8 @@ applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4703 MB             ; 00:00:01                           ;
-; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:01                           ;
+; Analysis & Elaboration ; 00:00:02     ; 1.0                     ; 4703 MB             ; 00:00:01                           ;
+; Total                  ; 00:00:02     ; --                      ; --                  ; 00:00:01                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

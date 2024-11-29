@@ -15,7 +15,7 @@ L5
 VAZRE^KgOF2zNWQk<=C3Q_0
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1732339807.382000
+Z8 !s108 1732850210.383000
 Z9 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/binbcd10bits.vhd|
 Z10 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/binbcd10bits.vhd|
 Z11 o-93 -work work -O0
@@ -52,7 +52,7 @@ V?::RYRzi1fXB`C_I?TY1O1
 R7
 31
 !i10b 1
-Z16 !s108 1732339807.693000
+Z16 !s108 1732850210.665000
 Z17 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/conversormodulo.vhd|
 Z18 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/conversormodulo.vhd|
 R11
@@ -73,56 +73,21 @@ R17
 R18
 R11
 R12
-Edivisorclock
-Z19 w1732339076
-R2
-R3
-R4
-Z20 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd
-Z21 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd
-l0
-L4
-VOm>cFLo4TRVZXRZ<az7?T2
-R7
-31
-Z22 !s108 1732339807.081000
-Z23 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd|
-Z24 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/divclock.vhd|
-R11
-R12
-!s100 10MfSB=GY9@bIC]0[bFQY1
-!i10b 1
-Alogica
-R2
-R3
-DEx4 work 12 divisorclock 0 22 Om>cFLo4TRVZXRZ<az7?T2
-l12
-L9
-VME4i`3;kOIDA<ih04k>nZ0
-R7
-31
-R22
-R23
-R24
-R11
-R12
-!s100 YY5kL9PkSa=LlSUPYWPGZ1
-!i10b 1
 Effd
-Z25 w1732152969
+Z19 w1732152969
 R2
 R3
 R4
-Z26 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd
-Z27 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd
+Z20 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd
+Z21 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd
 l0
 L29
 V`2;cYd8?Kj07VH5iH;hDZ3
 R7
 31
-Z28 !s108 1732339804.761000
-Z29 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd|
-Z30 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd|
+Z22 !s108 1732850208.266000
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd|
+Z24 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/ffd.vhd|
 R11
 R12
 !s100 :`AS2Ij`5G;;^z>i_DfM52
@@ -136,28 +101,28 @@ L34
 Vm6a_`o:TP@MO[j=n5@iAe3
 R7
 31
-R28
-R29
-R30
+R22
+R23
+R24
 R11
 R12
 !s100 <L@Ece2B`Y4^R=nz_YhT]0
 !i10b 1
 Elab8
-Z31 w1732339787
+Z25 w1732850131
 R2
 R3
 R4
-Z32 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd
-Z33 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd
+Z26 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd
+Z27 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd
 l0
 L4
 V914`XIg>HBn19?@@bKHz`1
 R7
 31
-Z34 !s108 1732339805.061000
-Z35 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd|
-Z36 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd|
+Z28 !s108 1732850208.526000
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd|
+Z30 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/lab8.vhd|
 R11
 R12
 !s100 Tlba?ej9Z8lgEE]JzhQLz3
@@ -168,31 +133,31 @@ R3
 DEx4 work 4 lab8 0 22 914`XIg>HBn19?@@bKHz`1
 l53
 L11
-V4=@iRH7AIYdiTC`FN9Q1U2
+VaK]LngUR?YIfPz@BHf64l0
 R7
 31
-R34
-R35
-R36
+R28
+R29
+R30
 R11
 R12
-!s100 0fWId>en73WlhDX:XagM[2
+!s100 >VLODO3]PZB2d`@DBjVQo3
 !i10b 1
 Emultiplicador
-Z37 w1732324708
+Z31 w1732324708
 R2
 R3
 R4
-Z38 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd
-Z39 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd
+Z32 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd
+Z33 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd
 l0
 L4
 VdOZh4cZioG_UMUA2i>hIV3
 R7
 31
-Z40 !s108 1732339803.835000
-Z41 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd|
-Z42 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd|
+Z34 !s108 1732850207.380000
+Z35 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd|
+Z36 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/multiplicador.vhd|
 R11
 R12
 !s100 F8V1hMk7QzTnmmB79CkZl0
@@ -206,28 +171,28 @@ L11
 VRf54c3IiR4:=TodHfg[YV1
 R7
 31
-R40
-R41
-R42
+R34
+R35
+R36
 R11
 R12
 !s100 U;lD:1^bL5JXaAQ?RGYf]0
 !i10b 1
 Emux4
-Z43 w1732314916
+Z37 w1732314916
 R2
 R3
 R4
-Z44 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd
-Z45 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd
+Z38 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd
+Z39 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd
 l0
 L4
 VB1R;a<]fKfhY^RNVUKYio0
 R7
 31
-Z46 !s108 1732339805.948000
-Z47 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd|
-Z48 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd|
+Z40 !s108 1732850209.269000
+Z41 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd|
+Z42 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/mux4.vhd|
 R11
 R12
 !s100 UmO;>_QTe>ZhFmiH2cAkQ0
@@ -241,28 +206,28 @@ L10
 Viz_X;4Gd<I;O6<56daAV60
 R7
 31
-R46
-R47
-R48
+R40
+R41
+R42
 R11
 R12
 !s100 IlP`:D^FJMF6P8AlPMd@50
 !i10b 1
 Ereg10bom
-Z49 w1732337132
+Z43 w1732343159
 R2
 R3
 R4
-Z50 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd
-Z51 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd
+Z44 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd
+Z45 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd
 l0
 L4
 VSdgoW;:Uc0l81h8k>UfKL2
 R7
 31
-Z52 !s108 1732339806.790000
-Z53 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd|
-Z54 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd|
+Z46 !s108 1732850210.043000
+Z47 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd|
+Z48 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/reg10bom.vhd|
 R11
 R12
 !s100 Q8:lHK5ZK7hzWY3G?<XJN1
@@ -273,31 +238,31 @@ R3
 DEx4 work 8 reg10bom 0 22 SdgoW;:Uc0l81h8k>UfKL2
 l20
 L12
-VXDP?DGQ`XRGiz[:e?;OgE2
+VVh<`ePeC53iCCkcS<0CzV1
 R7
 31
-R52
-R53
-R54
+R46
+R47
+R48
 R11
 R12
-!s100 QO5602HUbdg7L6V7mW2T61
+!s100 QGW=BdY6PbEOFVN9:7Vf@3
 !i10b 1
 Eregbasico
-Z55 w1732306426
+Z49 w1732340709
 R2
 R3
 R4
-Z56 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl
-Z57 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl
+Z50 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl
+Z51 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl
 l0
 L4
 V8^85:BK2;JoK2h^SSP9853
 R7
 31
-Z58 !s108 1732339805.318000
-Z59 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl|
-Z60 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl|
+Z52 !s108 1732850208.798000
+Z53 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl|
+Z54 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regbasico.vhdl|
 R11
 R12
 !s100 n<72RbkW3RL:lTO;7<ec03
@@ -308,31 +273,31 @@ R3
 DEx4 work 9 regbasico 0 22 8^85:BK2;JoK2h^SSP9853
 l16
 L11
-VJa5`2dPJ_SS[n08^ibo^A3
+V0g[@9?JM=7k59MnHWIFM<1
 R7
 31
-R58
-R59
-R60
+R52
+R53
+R54
 R11
 R12
-!s100 HGiWP=Pm=;]h[=4:_?8_:2
+!s100 h>2AB=^1Q4gCn<Fn0<oUf1
 !i10b 1
 Eregistrador10bits
-Z61 w1732336331
+Z55 w1732336331
 R2
 R3
 R4
-Z62 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd
-Z63 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd
+Z56 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd
+Z57 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd
 l0
 L4
 V;hbhoFR2=6XSTjeIjSTEC3
 R7
 31
-Z64 !s108 1732339806.498000
-Z65 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd|
-Z66 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd|
+Z58 !s108 1732850209.761000
+Z59 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd|
+Z60 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/registrador10bits.vhd|
 R11
 R12
 !s100 X^Ve7AUnP08=`LT7mKn0:3
@@ -346,28 +311,28 @@ L11
 VSJ00dXZ<7:;F1`o0K@MFS3
 R7
 31
-R64
-R65
-R66
+R58
+R59
+R60
 R11
 R12
 !s100 `ECi4hZ5hU:[]]SD<OF`12
 !i10b 1
 Eregrc
-Z67 w1732339736
+Z61 w1732343372
 R2
 R3
 R4
-Z68 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd
-Z69 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd
+Z62 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd
+Z63 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd
 l0
 L5
 VT40N?W[zQ=G]H@gH<i2zV2
 R7
 31
-Z70 !s108 1732339805.617000
-Z71 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd|
-Z72 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd|
+Z64 !s108 1732850209.059000
+Z65 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd|
+Z66 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/regRC.vhd|
 R11
 R12
 !s100 K7WfX;ll8Ujma^_eGIeO50
@@ -378,31 +343,31 @@ R3
 DEx4 work 5 regrc 0 22 T40N?W[zQ=G]H@gH<i2zV2
 l32
 L12
-V[bCSKo9z=@7B533]7D2IT2
+ViSIEFjZhVkNHPL1KVPea@2
 R7
 31
-R70
-R71
-R72
+R64
+R65
+R66
 R11
 R12
-!s100 1:P@e^Be>^Lcz8GaYjciW3
+!s100 A@CKVTcRG@6dQi3Bf7MzC3
 !i10b 1
 Esegm
-Z73 w1732329766
+Z67 w1732849454
 R2
 R3
 R4
-Z74 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd
-Z75 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd
+Z68 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd
+Z69 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd
 l0
 L4
 Vfz0=gRC5:5RP`gz4n6_OH3
 R7
 31
-Z76 !s108 1732339806.253000
-Z77 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd|
-Z78 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd|
+Z70 !s108 1732850209.523000
+Z71 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd|
+Z72 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/segm.vhd|
 R11
 R12
 !s100 bBi_LWlbS03^O@I6U>?Id2
@@ -413,31 +378,31 @@ R3
 DEx4 work 4 segm 0 22 fz0=gRC5:5RP`gz4n6_OH3
 l11
 L9
-Vc@U0R3dTN_e:eL]Vbkl9<1
+VU2]L1ibj`SOQA1B2<G4DJ2
 R7
 31
-R76
-R77
-R78
+R70
+R71
+R72
 R11
 R12
-!s100 TPAalYlnDIh5zEHo3J`=a1
+!s100 <O1OT[NMoYm5B=VU=hZO40
 !i10b 1
 Esomador
-Z79 w1732071482
+Z73 w1732071482
 R2
 R3
 R4
-Z80 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd
-Z81 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd
+Z74 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd
+Z75 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd
 l0
 L4
 V]6QInC;]z_]Vn<QNd30OK1
 R7
 31
-Z82 !s108 1732339804.131000
-Z83 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd|
-Z84 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd|
+Z76 !s108 1732850207.976000
+Z77 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd|
+Z78 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB8/somador.vhd|
 R11
 R12
 !s100 e_;MB>6Fc@2f;@0PDAG2?0
@@ -451,9 +416,9 @@ L13
 V>cManR27ALz3DO9Yg^KFl2
 R7
 31
-R82
-R83
-R84
+R76
+R77
+R78
 R11
 R12
 !s100 ok_YMD?>KY1O^=]cc=cED2
