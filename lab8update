@@ -5,7 +5,8 @@ entity lab8 is
 	port(entradamy, entradamc : in std_logic_vector(3 downto 0);
 		selC : in std_logic_vector(1 downto 0);
 		actC, actY, actOut, clr_r, clockfpga : in std_logic;
-		hex0,hex1,hex2,hex3 : out std_logic_vector(6 downto 0));
+		clockout : out std_logic;
+		hex0,hex1,hex2 : out std_logic_vector(6 downto 0));
 end entity;
 
 architecture milagre of lab8 is
