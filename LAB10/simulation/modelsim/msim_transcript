@@ -1,0 +1,69 @@
+# Reading D:/Engenharia/alteraquartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab10_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\Engenharia\alteraquartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Engenharia\alteraquartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclock.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ck_div
+# -- Compiling architecture logica of ck_div
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont25.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont25
+# -- Compiling architecture violencia of cont25
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclockmillis.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity divclockmillis
+# -- Compiling architecture taquicardia of divclockmillis
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/lab10.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lab10
+# -- Compiling architecture liberdadefinalmente of lab10
+# vcom -93 -work work {D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont5.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont5
+# -- Compiling architecture lagrimas of cont5
+# 
+vsim work.cont5
+# vsim work.cont5 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cont5(lagrimas)
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/cont5/clkcont5
+wave create -driver freeze -pattern constant -value 1 -starttime 0ps -endtime 1000ps sim:/cont5/enablecont5
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/cont5/resetcont5
+add wave -position insertpoint  \
+sim:/cont5/timesup
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 10ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/cont5/clkcont5
+run
+run
+run
+run
+run
+run
+run
+run
+run

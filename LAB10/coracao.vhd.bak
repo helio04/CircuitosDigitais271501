@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity coracao is 
+	port(clear, PAC, PVC, clock: in std_logic;
+		  SAC, SVC, PAT, PVT, SAT, SVT: out std_logic;
+		  sinal : in std_logic_vector(1 downto 0));
+end entity;
+
+architecture estresse of coracao is
+
+
+end architecture;

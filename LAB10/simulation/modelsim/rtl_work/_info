@@ -1,0 +1,180 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Engenharia\2024.2\CD\CircuitosDigitais271501\LAB10\simulation\modelsim
+Eck_div
+Z1 w1737319710
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\Engenharia\2024.2\CD\CircuitosDigitais271501\LAB10\simulation\modelsim
+Z5 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclock.vhd
+Z6 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclock.vhd
+l0
+L29
+VGD:`@TMdC<:hUAjb]N@oR3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1737325070.440000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclock.vhd|
+Z10 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclock.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 4n0nTJ]5ba8CHz`H2KNUe0
+!i10b 1
+Alogica
+R2
+R3
+DEx4 work 6 ck_div 0 22 GD:`@TMdC<:hUAjb]N@oR3
+l37
+L34
+V=?ggTJ;g6]VZISB?kIe>d3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 HO0CLn68mHE1E>ehMPN``1
+!i10b 1
+Econt25
+Z13 w1737322730
+R2
+R3
+R4
+Z14 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont25.vhd
+Z15 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont25.vhd
+l0
+L4
+Vh2O`JeH_f7OO4B<?iY1M:1
+R7
+31
+Z16 !s108 1737325071.021000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont25.vhd|
+Z18 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont25.vhd|
+R11
+R12
+!s100 f=@[cDX`FTcVEQD4cbkC32
+!i10b 1
+Aviolencia
+R2
+R3
+DEx4 work 6 cont25 0 22 h2O`JeH_f7OO4B<?iY1M:1
+l14
+L11
+V7DaFa_X4lJl1GWk[L3FDc3
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 zFJLe`z3=Rno28@`27hU[1
+!i10b 1
+Econt5
+Z19 w1737324754
+R2
+R3
+R4
+Z20 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont5.vhd
+Z21 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont5.vhd
+l0
+L4
+VNRzgRI@jkN:iiz04bLcn<2
+!s100 :KY<3TY<>D9JSS5`NTV6Q1
+R7
+31
+!i10b 1
+Z22 !s108 1737325071.721000
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont5.vhd|
+Z24 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/cont5.vhd|
+R11
+R12
+Alagrimas
+R2
+R3
+DEx4 work 5 cont5 0 22 NRzgRI@jkN:iiz04bLcn<2
+l14
+L11
+Ve;Q11e<ZTOfDJPe7a7Rdf1
+!s100 kB7QNmhRAOn<_1bDggmV=0
+R7
+31
+!i10b 1
+R22
+R23
+R24
+R11
+R12
+Edivclockmillis
+Z25 w1737322888
+R2
+R3
+R4
+Z26 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclockmillis.vhd
+Z27 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclockmillis.vhd
+l0
+L29
+Vl5SG?Xd2Ya42JdaGZg5n61
+R7
+31
+Z28 !s108 1737325071.282000
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclockmillis.vhd|
+Z30 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/divclockmillis.vhd|
+R11
+R12
+!s100 9@2Qh04zlIgT;6T<77ckT2
+!i10b 1
+Ataquicardia
+R2
+R3
+DEx4 work 14 divclockmillis 0 22 l5SG?Xd2Ya42JdaGZg5n61
+l37
+L34
+VPj]0`[XF83mhgdSzB:`W^0
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 WX3jAcSfbF3@^MMz[PL_I3
+!i10b 1
+Elab10
+Z31 w1737325027
+R2
+R3
+R4
+Z32 8D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/lab10.vhd
+Z33 FD:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/lab10.vhd
+l0
+L4
+VmPEAILGnZBOe7XLdk?84f3
+R7
+31
+Z34 !s108 1737325071.513000
+Z35 !s90 -reportprogress|300|-93|-work|work|D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/lab10.vhd|
+Z36 !s107 D:/Engenharia/2024.2/CD/CircuitosDigitais271501/LAB10/lab10.vhd|
+R11
+R12
+!s100 ?6BUi]T981YVm1JIhClKb1
+!i10b 1
+Aliberdadefinalmente
+R2
+R3
+DEx4 work 5 lab10 0 22 mPEAILGnZBOe7XLdk?84f3
+l39
+L11
+VD<RM7B`78<_D>jLzPTBXS3
+R7
+31
+R34
+R35
+R36
+R11
+R12
+!s100 ?Uc>[I^aO2Sl<nc^64nNH2
+!i10b 1

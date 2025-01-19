@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : -3.395
+TNS   : -275.218
+
+Type  : Slow 1200mV 85C Model Setup 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : -3.361
+TNS   : -275.279
+
+Type  : Slow 1200mV 85C Model Setup 'ck_div:divclockbasico|ax'
+Slack : -2.231
+TNS   : -49.988
+
+Type  : Slow 1200mV 85C Model Setup 'clockfpga'
+Slack : -2.006
+TNS   : -28.334
+
+Type  : Slow 1200mV 85C Model Hold 'ck_div:divclockbasico|ax'
+Slack : -0.232
+TNS   : -0.432
+
+Type  : Slow 1200mV 85C Model Hold 'clockfpga'
+Slack : -0.149
+TNS   : -0.149
+
+Type  : Slow 1200mV 85C Model Hold 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clockfpga'
+Slack : -3.000
+TNS   : -23.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ck_div:divclockbasico|ax'
+Slack : -1.000
+TNS   : -31.000
+
+Type  : Slow 1200mV 0C Model Setup 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : -2.970
+TNS   : -239.602
+
+Type  : Slow 1200mV 0C Model Setup 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : -2.835
+TNS   : -237.876
+
+Type  : Slow 1200mV 0C Model Setup 'ck_div:divclockbasico|ax'
+Slack : -1.892
+TNS   : -40.977
+
+Type  : Slow 1200mV 0C Model Setup 'clockfpga'
+Slack : -1.716
+TNS   : -23.063
+
+Type  : Slow 1200mV 0C Model Hold 'ck_div:divclockbasico|ax'
+Slack : -0.204
+TNS   : -0.369
+
+Type  : Slow 1200mV 0C Model Hold 'clockfpga'
+Slack : -0.118
+TNS   : -0.118
+
+Type  : Slow 1200mV 0C Model Hold 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clockfpga'
+Slack : -3.000
+TNS   : -23.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ck_div:divclockbasico|ax'
+Slack : -1.000
+TNS   : -31.000
+
+Type  : Fast 1200mV 0C Model Setup 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : -1.498
+TNS   : -113.169
+
+Type  : Fast 1200mV 0C Model Setup 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : -1.462
+TNS   : -111.264
+
+Type  : Fast 1200mV 0C Model Setup 'ck_div:divclockbasico|ax'
+Slack : -0.819
+TNS   : -15.333
+
+Type  : Fast 1200mV 0C Model Setup 'clockfpga'
+Slack : -0.709
+TNS   : -7.744
+
+Type  : Fast 1200mV 0C Model Hold 'ck_div:divclockbasico|ax'
+Slack : -0.171
+TNS   : -0.335
+
+Type  : Fast 1200mV 0C Model Hold 'clockfpga'
+Slack : -0.151
+TNS   : -0.151
+
+Type  : Fast 1200mV 0C Model Hold 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clockfpga'
+Slack : -3.000
+TNS   : -23.646
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'coracao:cor|divclockmillis:millisegundos|ax'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'marcapasso:mp|divclockmillis:millisegundos|ax'
+Slack : -1.000
+TNS   : -96.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ck_div:divclockbasico|ax'
+Slack : -1.000
+TNS   : -31.000
+
+------------------------------------------------------------

@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity lab10 is
+   port (clockfpga, clear : in  std_logic;
+         SACR,SVCR,PAMP, PVMP: out std_logic
+			sinais : in std_logic_vector(1 downto 0));
+end lab10;
+
+
+architecture liberdadefinalmente of lab10 is
+component ck_div is
+   port (ck_in : in  std_logic;
+         ck_out: out std_logic);
+end component;
+component divclockmillis is
+   port (ck_in : in  std_logic;
+         ck_out: out std_logic);
+end component;
+component cont25 is
+    Port ( clkcont25 : in STD_LOGIC;
+           resetcont25 : in STD_LOGIC;
+           enablecont25 : in STD_LOGIC;
+           timesup : out STD_LOGIC);
+end component;
+begin 
+divclock1 : ck_div port map(clockfpga, clockaux);
+divclock2 : divclockmillis port map(clockaux, clockaux2);
+contador : cont25 port map(clockaux2, 0, 1, SACR);
+end architecture;
